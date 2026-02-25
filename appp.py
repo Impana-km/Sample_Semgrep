@@ -21,6 +21,8 @@ def ping():
     host = request.args.get("host")
     return subprocess.getoutput("ping -c 1 " + host)
 
+# testing for semgrep 
+
 
 # 3️⃣ Debug Mode Enabled (Security Risk)
 if __name__ == "__main__":
